@@ -262,8 +262,8 @@ body #main-content {
   left: 0;
   width: 100%;
   background-color: white;
-  z-index: 1000; /* Adjust as needed */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: for a subtle shadow effect */
+  z-index: 1000; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 
@@ -272,9 +272,9 @@ body #main-content {
 
 
 
-/* Ensure main content is below the fixed header */
+
 .main-content {
-  padding-top: 70px; /* Adjust based on the height of your header */
+  padding-top: 70px; 
 }
 
 .header-container{
@@ -2144,7 +2144,7 @@ body[data-left-nav-state="open"] .hamburger {
 .text-styles h2 {
   font-size: 1.5em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight)
@@ -2373,7 +2373,7 @@ body #main-content{
   padding-bottom: 0;
   height: 100%;
   width: 100%;
-  aspect-ratio: auto 650 / 273;
+  aspect-ratio: auto 650 \ 273;
   object-fit: scale-down;
   border-radius: var(--radius-auto) var(--radius) 0 0;
 }
@@ -2771,7 +2771,7 @@ body #main-content{
 .text-styles h3{
   font-size: 1.25em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight);
@@ -3784,7 +3784,7 @@ div {
 .text-styles h2 {
   font-size: 1.5em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight)
@@ -4031,7 +4031,7 @@ a{
   padding-bottom: 0;
   height: 100%;
   width: 100%;
-  aspect-ratio: auto 650 / 273;
+  aspect-ratio: auto 650 \ 273;
   object-fit: scale-down;
   border-radius: var(--radius-auto) var(--radius) 0 0;
 }
@@ -4429,7 +4429,7 @@ a{
 .text-styles h3{
   font-size: 1.25em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight);
@@ -4665,7 +4665,7 @@ a{
 
 
 .videos-layout--header {
-	--header-span: 1 / span 1;
+	--header-span: 1 \ span 1;
 	grid-template-rows: min-content 1fr;
 	row-gap: 0;
 }
@@ -4716,7 +4716,7 @@ a{
 }
 
 .aspect-16-9 {
-	aspect-ratio: calc(16 / 9);
+	aspect-ratio: calc(16 \ 9);
 }
 
 .object-cover {
@@ -5269,7 +5269,7 @@ div {
 .text-styles h2 {
   font-size: 1.5em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight)
@@ -5516,7 +5516,7 @@ a{
   padding-bottom: 0;
   height: 100%;
   width: 100%;
-  aspect-ratio: auto 650 / 273;
+  aspect-ratio: auto 650 \ 273;
   object-fit: scale-down;
   border-radius: var(--radius-auto) var(--radius) 0 0;
 }
@@ -5914,7 +5914,7 @@ a{
 .text-styles h3{
   font-size: 1.25em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight);
@@ -6166,7 +6166,7 @@ a{
 .about-area h1{
   font-size: 1.75em;
   font-family: var(--content-font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight);
@@ -6181,7 +6181,7 @@ a{
 .about-area h2{
   font-size: 1.5em;
   font-family: var(--content-font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight);
@@ -6716,7 +6716,7 @@ div {
 .text-styles h2 {
   font-size: 1.5em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight)
@@ -6963,7 +6963,7 @@ a{
   padding-bottom: 0;
   height: 100%;
   width: 100%;
-  aspect-ratio: auto 650 / 273;
+  aspect-ratio: auto 650 \ 273;
   object-fit: scale-down;
   border-radius: var(--radius-auto) var(--radius) 0 0;
 }
@@ -7361,7 +7361,7 @@ a{
 .text-styles h3{
   font-size: 1.25em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight);
@@ -7607,7 +7607,7 @@ a{
 .text-styles h1 {
 	font-size: 1.75em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight);
@@ -8151,7 +8151,7 @@ div {
 .text-styles h2 {
   font-size: 1.5em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight)
@@ -8398,7 +8398,7 @@ a{
   padding-bottom: 0;
   height: 100%;
   width: 100%;
-  aspect-ratio: auto 650 / 273;
+  aspect-ratio: auto 650 \ 273;
   object-fit: scale-down;
   border-radius: var(--radius-auto) var(--radius) 0 0;
 }
@@ -8796,7 +8796,7 @@ a{
 .text-styles h3{
   font-size: 1.25em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight);
@@ -9806,7 +9806,7 @@ div {
 .text-styles h2 {
   font-size: 1.5em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight)
@@ -10053,7 +10053,7 @@ a{
   padding-bottom: 0;
   height: 100%;
   width: 100%;
-  aspect-ratio: auto 650 / 273;
+  aspect-ratio: auto 650 \ 273;
   object-fit: scale-down;
   border-radius: var(--radius-auto) var(--radius) 0 0;
 }
@@ -10451,7 +10451,7 @@ a{
 .text-styles h3{
   font-size: 1.25em;
   font-family: var(--font-family);
-  margin: calc(var(--content-rhythm) / 2) 0;
+  margin: calc(var(--content-rhythm) \ 2) 0;
   padding: 0;
   font-weight: var(--fw-bold);
   line-height: var(--lh-tight);
@@ -11135,7 +11135,7 @@ div.actions {
   .crayons-subtitle-2{
     font-size: var(--fs-xl);
   }
-  .s/:flex{
+  .s\:flex{
     display: flex;
   }
   .crayons-navigation__item .crayons-navigation__item--current{
@@ -11214,7 +11214,7 @@ div.actions {
   .crayons-subtitle-2{
     font-size: var(--fs-xl);
   }
-  .s/:flex{
+  .s\:flex{
     display: flex;
   }
   .crayons-navigation__item .crayons-navigation__item--current{
@@ -11288,7 +11288,7 @@ div.actions {
   .crayons-subtitle-2{
     font-size: var(--fs-xl);
   }
-  .s/:flex{
+  .s\:flex{
     display: flex;
   }
   .crayons-navigation__item .crayons-navigation__item--current{
@@ -11363,7 +11363,7 @@ div.actions {
   .crayons-subtitle-2{
     font-size: var(--fs-xl);
   }
-  .s/:flex{
+  .s\:flex{
     display: flex;
   }
   .crayons-navigation__item .crayons-navigation__item--current{
