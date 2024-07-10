@@ -181,7 +181,7 @@ const Header = () => {
                   DEV Community is a community of 1,038,202 amazing developers
                 </h2>
                 <p className="color-base-70 mb-4">
-                  We're a place where coders share, stay up-to-date and grow
+                  We&#39;re a place where coders share, stay up-to-date and grow
                   their careers.
                 </p>
                 <div>
