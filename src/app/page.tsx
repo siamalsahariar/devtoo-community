@@ -9,7 +9,7 @@ const HomePage = () => {
       <div id="hamburger" className="hamburger">
         <div className="hamburger__content">
           <header className="hamburger__content__header">
-            <h2 className="fs-l fw-bold flex-1 break-word lh-tight">
+            <h2 className="fs-l fw-bold flex-item-1 break-word lh-tight">
               DEV Community
             </h2>
             <button
@@ -737,7 +737,7 @@ const HomePage = () => {
                   </li>
                 </ul>
               </nav>
-              <div className="flex justify-start mb-4">
+              <div className="flex-item justify-start mb-4">
                 <a
                   href="https://twitter.com/thepracticaldev"
                   target="_blank"
@@ -1575,7 +1575,7 @@ const HomePage = () => {
                     </li>
                   </ul>
                 </nav>
-                <div className="flex justify-start mb-4">
+                <div className="flex-item justify-start mb-4">
                   <a
                     href="https://twitter.com/thepracticaldev"
                     target="_blank"
@@ -2074,7 +2074,7 @@ const HomePage = () => {
               <header className="p-2 px-3 m:p-0 m:px-0 m:mb-2 fs-1">
                 <h1 className="screen-reader-only">Posts</h1>
                 <nav
-                  className="-mx-3 m:mx-0 s:flex items-center justify-between"
+                  className="-mx-3 m:mx-0 s:flex-item items-center justify-between"
                   aria-label="View posts by"
                 >
                   <ul className="crayons-navigation crayons-navigation--horizontal">
@@ -2155,7 +2155,7 @@ const HomePage = () => {
                             <div className="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0 reverse">
                               <div className="gap-4 grid">
                                 <div className="-mt-4">
-                                  <a href="/_" className="flex">
+                                  <a href="/_" className="flex-item">
                                     <span className="crayons-avatar crayons-avatar--xl mr-2 shirnk-0">
                                       <Image
                                         src="/niall.jpg"
@@ -2269,7 +2269,7 @@ const HomePage = () => {
                         </a>
                         <a
                           href="/alvaromontoro/css-is-dead-1i4#comments"
-                          className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                          className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                           aria-label="Add a comment to post - CSS Is Dead!"
                         >
                           <svg
@@ -2379,7 +2379,10 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/alvaromontoro" className="flex">
+                                    <a
+                                      href="/alvaromontoro"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -2488,7 +2491,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -2585,7 +2588,10 @@ const HomePage = () => {
                               <div className="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0">
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/tristankalos" className="flex">
+                                    <a
+                                      href="/tristankalos"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -2680,7 +2686,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -2823,7 +2829,10 @@ const HomePage = () => {
                               <div className="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0 reverse">
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/codenameone" className="flex">
+                                    <a
+                                      href="/codenameone"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -2966,7 +2975,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/_"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -3066,7 +3075,7 @@ const HomePage = () => {
                               <div className="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0">
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/acidop" className="flex">
+                                    <a href="/acidop" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -3208,7 +3217,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -3317,7 +3326,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/kalashin1" className="flex">
+                                    <a href="/kalashin1" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -3446,7 +3455,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -3549,7 +3558,10 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/thomasaribart" className="flex">
+                                    <a
+                                      href="/thomasaribart"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -3678,7 +3690,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -3780,7 +3792,7 @@ const HomePage = () => {
                               <div className="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0">
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/rmmgc" className="flex">
+                                    <a href="/rmmgc" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -3925,7 +3937,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -4030,7 +4042,10 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/zanfranceschi" className="flex">
+                                    <a
+                                      href="/zanfranceschi"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -4123,7 +4138,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -4237,7 +4252,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/fredy" className="flex">
+                                    <a href="/fredy" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -4341,7 +4356,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -4450,7 +4465,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/perber" className="flex">
+                                    <a href="/perber" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -4592,7 +4607,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -4705,7 +4720,10 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/kuldeeptarapara" className="flex">
+                                    <a
+                                      href="/kuldeeptarapara"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -4825,7 +4843,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -4938,7 +4956,10 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/singula_team" className="flex">
+                                    <a
+                                      href="/singula_team"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -5079,7 +5100,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -5192,7 +5213,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/itskunal" className="flex">
+                                    <a href="/itskunal" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -5346,7 +5367,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -5459,7 +5480,10 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/johnste39558689" className="flex">
+                                    <a
+                                      href="/johnste39558689"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -5580,7 +5604,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -5694,7 +5718,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/javinpaul" className="flex">
+                                    <a href="/javinpaul" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -5835,7 +5859,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -5948,7 +5972,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/moonly" className="flex">
+                                    <a href="/moonly" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -6080,7 +6104,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -6194,7 +6218,10 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/apollolabsbin" className="flex">
+                                    <a
+                                      href="/apollolabsbin"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -6342,7 +6369,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -6455,7 +6482,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/balagmadhu" className="flex">
+                                    <a href="/balagmadhu" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -6582,7 +6609,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -6693,7 +6720,10 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/olena_kutsenko" className="flex">
+                                    <a
+                                      href="/olena_kutsenko"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -6826,7 +6856,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -6939,7 +6969,10 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/lucasjstifano" className="flex">
+                                    <a
+                                      href="/lucasjstifano"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -7089,7 +7122,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -7203,7 +7236,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/rmmgc" className="flex">
+                                    <a href="/rmmgc" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -7358,7 +7391,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -7471,7 +7504,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/rmmgc" className="flex">
+                                    <a href="/rmmgc" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -7611,7 +7644,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -7723,7 +7756,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/rmmgc" className="flex">
+                                    <a href="/rmmgc" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -7852,7 +7885,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -7965,7 +7998,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/rmmgc" className="flex">
+                                    <a href="/rmmgc" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -8097,7 +8130,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -8211,7 +8244,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/rmmgc" className="flex">
+                                    <a href="/rmmgc" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -8359,7 +8392,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -8472,7 +8505,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/rmmgc" className="flex">
+                                    <a href="/rmmgc" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -8610,7 +8643,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -8723,7 +8756,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/rmmgc" className="flex">
+                                    <a href="/rmmgc" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -8853,7 +8886,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -8966,7 +8999,10 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/lucasjstifano" className="flex">
+                                    <a
+                                      href="/lucasjstifano"
+                                      className="flex-item"
+                                    >
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -9105,7 +9141,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/_"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -9209,7 +9245,7 @@ const HomePage = () => {
                               >
                                 <div className="gap-4 grid">
                                   <div className="-mt-4">
-                                    <a href="/rmmgc" className="flex">
+                                    <a href="/rmmgc" className="flex-item">
                                       <span className="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
                                         <Image
                                           src=""
@@ -9324,7 +9360,7 @@ const HomePage = () => {
                           </a>
                           <a
                             href="/alvaromontoro/css-is-dead-1i4#comments"
-                            className="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center"
+                            className="crayons-btn--f crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex-item items-center"
                             aria-label="Add a comment to post - CSS Is Dead!"
                           >
                             <svg
@@ -9999,7 +10035,7 @@ const HomePage = () => {
                         className="crayons-link crayons-link--contentful"
                         href="/_"
                       >
-                        Flexbox Cheat Sheet
+                        flex-itembox Cheat Sheet
                       </a>
                     </div>
                   </div>
