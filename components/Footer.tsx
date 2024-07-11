@@ -120,7 +120,7 @@ const Footer = () => {
             >
               Ruby on Rails
             </a>
-            . DEV Community <span title="copyright">©</span> 2016 - 2023.
+            . DEV Community <span title="copyright">©</span> 2016 - 2024.
           </p>
         </div>
       </div>

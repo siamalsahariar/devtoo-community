@@ -1,6 +1,11 @@
 // app/contact/page.tsx
+"use client";
+import { useEffect } from "react";
 
 const ContactPage = () => {
+  useEffect(() => {
+    document.title = "Contact DEV Community";
+  }, []);
   return (
     <div className="crayons-layout crayons-layout--limited-l">
       <div className="crayons-card text-styles text-padding">

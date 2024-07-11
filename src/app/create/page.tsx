@@ -1,4 +1,10 @@
+"use client";
+import { useEffect } from "react";
+
 const CreatePage = () => {
+  useEffect(() => {
+    document.title = "Welcome! - DEV Community";
+  }, []);
   return (
     <section className="listings-layout">
       <div className="registration listings-card">

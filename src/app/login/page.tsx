@@ -1,6 +1,11 @@
+"use client";
 import "../../../styles/globals.css";
+import { useEffect } from "react";
 
 const LoginPage = () => {
+  useEffect(() => {
+    document.title = "Welcome! - DEV Community";
+  }, []);
   return (
     <section className="listings-layout">
       <div className="registration listings-card">

@@ -1,9 +1,15 @@
 // app/page.tsx
+"use client";
+import Head from "next/head";
 
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect } from "react";
 
 const HomePage = () => {
+  useEffect(() => {
+    document.title = "DEV Community";
+  }, []);
   return (
     <>
       <div id="hamburger" className="hamburger">

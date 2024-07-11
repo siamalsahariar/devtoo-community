@@ -1,7 +1,12 @@
 // app/video/page.tsx
+"use client";
 import Image from "next/image";
+import { useEffect } from "react";
 
 const VideoPage = () => {
+  useEffect(() => {
+    document.title = "Videos - DEV Community";
+  }, []);
   return (
     <main className="videos-layout videos-layout--header" id="main-content">
       <header className="videos-page-header">

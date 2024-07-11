@@ -1,9 +1,14 @@
 // app/listings/page.tsx
+"use client";
 import Image from "next/image";
 import "../../../styles/globals.css";
 import "../../../styles/listings.module.css";
+import { useEffect } from "react";
 
 const ListingsPage = () => {
+  useEffect(() => {
+    document.title = "Listings - DEV Community";
+  }, []);
   return (
     <div id="main-content">
       <header className="listings-page-header s:pb-0">
