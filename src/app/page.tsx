@@ -3436,8 +3436,8 @@ const HomePage = () => {
                                 </span>
                                 <span className="crayons_icon_container">
                                   <Image
-                                    alt="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
-                                    src=""
+                                    alt=""
+                                    src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
                                     width={18}
                                     height={18}
                                   />
